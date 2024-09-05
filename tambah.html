@@ -5,12 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
+     .container{
+        width: 250px;
+        margin-top: 10px;
+        border-collapse: collapse;
+        margin: auto;
+        border: 1px solid #000;
+        padding: 10px;
+     }
+     .input{
+        margin-bottom: 10px;
+        border-radius: 1%;
+     }
+     .btn{
+        margin-top: 15px;
+        margin-left: 200px;
+     }
     </style>
 </head>
 <body>
+    <div class="container">
     <h1 align="center">Tambah Barang</h1>
-    <label>Nama</label>
-    <input type="text">
+    <div>
+        <label>Nama</label>
+        <br><input type="text" class="input"></br>
+    </div>
+    <div>
+        <label>Kode Barang</label>
+        <br><input type="text" class="input"></br>
+    </div>
+    <div>
+        <label>Tanggal Masuk</label>
+        <br><input type="date" class="input"></br>
+    </div>
+    <div>
+        <label>Tanggal Exp</label>
+        <br><input type="date" class="input"></br>
+    </div>
+    <div>
+        <label>Jumlah Stok</label>
+        <br><input type="number" class="input"></br>
+    </div>
+    <div>
+        <label>Harga beli</label>
+        <br><input type="number" class="input"></br>
+    </div>
+    <div>
+        <label>Harga Jual</label>
+        <br><input type="number" class="input"></br>
+    </div>
+    <button class="btn">simpan</button>
+    </div>
 </body>
 </html>
